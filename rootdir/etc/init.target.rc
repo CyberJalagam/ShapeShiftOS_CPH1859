@@ -43,3 +43,4 @@ on boot
     # OTG
     write /sys/devices/platform/odm/odm:oppo_charger/power_supply/usb/otg_switch 1
 
+
