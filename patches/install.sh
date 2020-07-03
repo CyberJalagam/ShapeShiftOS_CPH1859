@@ -12,6 +12,10 @@ for dir in $dirs ; do
 	echo " "
 done
 
+cd $rootdirectory
+cd system/core/
+patch -p0 -i $rootdirectory/device/oppo/CPH1859/patches/system/core/offline-charging.patch
+
 # -----------------------------------
 echo "Changing to build directory..."
 cd $rootdirectory
