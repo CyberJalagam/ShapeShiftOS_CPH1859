@@ -10,6 +10,8 @@ typeattribute kpoc_charger coredomain;
 # Purpose : Start kpoc_charger
 init_daemon_domain(kpoc_charger)
 
+permissive kpoc_charger;
+
 # Use light HAL
 hal_client_domain(kpoc_charger, hal_light)
 
