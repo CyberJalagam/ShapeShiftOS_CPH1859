@@ -29,6 +29,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 
 # Specify arch for gapps
 TARGET_GAPPS_ARCH=arm64
+WITH_GAPPS := true
+IS_PHONE := true
 
 # Bootanimation
 TARGET_SCREEN_WIDTH := 1080
