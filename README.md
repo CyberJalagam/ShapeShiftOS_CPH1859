@@ -1,6 +1,8 @@
 # android_device_oppo_CPH1859_ssos
 ShapeShiftOS Device Tree for Realme 1. The 3GB variant has codename CPH1861 whereas the 4/6GB variants have codename CPH1859.
 
+STATUS: Discontinued
+
 ### Spec Sheet
 Feature | Specification
 -------:|:------------------------- 
